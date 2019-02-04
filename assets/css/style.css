@@ -491,9 +491,10 @@ ul.store-opt {
     background: #fff;
     color: rgb(0, 145, 51);
     border-color: #ECF0F1;
-    border-width: 2px;
+    border-width: 1px;
     border-radius: 20px;
-    box-shadow: 100px #AEB6BF;
+    box-shadow: -1px 1px 3px rgb(223, 224, 224),
+        -1px 1px 3px rgb(223, 224, 224), -1px 1px 3px rgb(223, 224, 224), -1px 1px 3px rgb(223, 224, 224);
 }
 
 #btn-free-trial-secondary {
