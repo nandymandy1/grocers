@@ -336,6 +336,16 @@
     pointer-events: none
 }
 
+/* .img-slider {
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, 0);
+    pointer-events: none
+} */
+
 .my-btn-primary-block {
     background: #4C3C61;
     color: #fff;
