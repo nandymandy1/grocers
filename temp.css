@@ -1,0 +1,45 @@
+.custom-carousel{
+    position: relative;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: 0.7;
+}
+
+.slider-area .carousel-inner .carousel-item{
+    height: 100vh;
+}
+
+.carousel-caption {
+    padding-right: 300px;
+    padding-bottom: 250px;
+}
+
+.carousel-caption h2 {
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.carousel-control.right {
+    background-image: none;
+}
+
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-box{
+    background: rgb(123, 125, 125, 0.8);
+    height: 20%;
+    width: 10%;
+    padding: 40px;
+    top: -40;
+}
+
+.view {
+   
+}
