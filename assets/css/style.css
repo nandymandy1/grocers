@@ -336,16 +336,6 @@
     pointer-events: none
 }
 
-/* .img-slider {
-    height: auto;
-    position: absolute;
-    z-index: -1;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%, 0);
-    pointer-events: none
-} */
-
 .my-btn-primary-block {
     background: #4C3C61;
     color: #fff;
@@ -365,7 +355,6 @@
 /* Footer */
 footer {
     font-style: unset;
-    /*font-family: 'Open Sans Condensed', sans-serif;*/
     font-weight: 100;
     font-size: .8em;
     color: rgb(246, 243, 243);
@@ -374,13 +363,11 @@ footer {
 .footer-top {
     padding: 15px;
     background: #4C3C61;
-    /*rgb(108, 98, 148);*/
 }
 
 .footer-bottom {
     padding: 15px;
     background: rgb(0, 145, 51);
-    /* rgb(64, 168, 101);*/
 }
 
 
@@ -410,7 +397,6 @@ footer {
 }
 
 /* Footer */
-
 
 .client-speech {
     line-height: 2.5em;
@@ -557,24 +543,9 @@ ul#revenue-list {
 }
 
 /* Image Sliders */
-.custom-carousel{
-    position: relative;
-}
-
-.overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 2;
-    background-color: #080d15;
-    opacity: 0.5;
-}
-
-.slider-area .carousel-inner .item{
-    height: 100vh;
-}
 
 .carousel-caption {
+    top: 250px;
     padding-right: 300px;
     padding-bottom: 250px;
 }
@@ -584,11 +555,36 @@ ul#revenue-list {
     text-transform: uppercase;
 }
 
-.carousel-control.right {
-    background-image: none;
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: #080d15;
+    opacity: 0.5;
 }
 
-.carousel-control.left {
-    background-image: none;
-}
 /* Image Sliders */
+
+/* Testimonial Slider */
+.testimonial-img {
+    height: 200px;
+    width: 200px;
+}
+
+.testimonial-card {
+    padding: 50px;
+    border-radius: 0px;
+    border-width: 0px;
+}
+
+.testimoial-heading {
+    color: rgb(0, 145, 51);
+}
+
+.testimonial-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* Testimonial Slider */
